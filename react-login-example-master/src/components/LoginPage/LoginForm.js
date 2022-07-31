@@ -11,7 +11,7 @@ const divStyle = {
 const panelStyle = {
   backgroundColor: 'rgba(255,255,255,0.5)',
   border: 0,
-  paddingLeft: 20,
+  paddingLeft: 25,
   paddingRight: 20,
   width: 300,
 };
@@ -38,11 +38,11 @@ class LoginForm extends Component {
               <FormControl type="email" placeholder="Email Address" />
             </FormGroup>
             <FormGroup controlId="formPassword">
-              <FormControl type="password" placeholder="Password" />
+              <FormControl type="paswod" placeholder="Password" />
             </FormGroup>
             <FormGroup style={buttonStyle} controlId="formSubmit">
               <Button bsStyle="primary" type="submit" onClick={this.handleFormSubmit}>
-                Login
+                Logins
               </Button>
             </FormGroup>
           </Form>
